@@ -36,7 +36,7 @@ export const Form = styled.form`
         border: 0;
         color: #FFF;
         font-weight: bold;
-        transition: background-color: 0.2s;
+        transition: background-color 0.2s;
 
         &:hover {
             background: ${shade(0.2, '#04D361')};
@@ -75,7 +75,8 @@ export const Repositories = styled.a`
         }
 
         div {
-            margin-left: 16px;
+            margin: 0 16px;
+            flex: 1;
 
             strong {
                 font-size: 20px;
