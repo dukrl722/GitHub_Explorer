@@ -62,7 +62,7 @@ export const Error = styled.span`
     margin-top: 8px;
 `;
 
-export const Repositories = styled.a`
+export const Repositories = styled.div`
     margin-top: 80px;
     max-width: 700px;
 
